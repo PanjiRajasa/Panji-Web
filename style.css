@@ -1,0 +1,101 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+header {
+  color: #eaeaea;
+  background: #9DAAF2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.logo {
+   margin-right: auto;
+   margin-left: 10px;
+   cursor: pointer;
+   transition: all .5s ease 0s;
+   transform: rotate(2deg);
+}
+.logo:hover {
+  color: #FF6A3D;
+}
+.button {
+  margin-right: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 6px 12px;
+  background: #FF6A3D;
+  color: #eaeaea;
+  border-radius: 8px;
+  cursor: pointer;
+}
+nav ul{
+  display: flex;
+  padding: 20px;
+}
+li {
+   list-style-type: none;
+   padding: 10px;
+}
+li a {
+     transition: all .5s ease 0s;
+     display: inline-block;
+}
+li a:hover {
+  color: #FF6A3D;
+  transform: rotate(2deg);
+}
+a {
+  color: #eaeaea;
+  text-decoration: none;
+}
+.container {
+  max-width: 120px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.description {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.horizontal {
+  margin-bottom: 40px;
+}
+.ddd {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+  text-align: center;
+}
+.Thx {
+  padding: auto;
+  background-color: lightblue;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.footer {
+  margin-top: 0px;
+  background-color: #9DAAF2;
+  align-content: center;
+  text-align: center;
+  font-size: 20px;
+}
