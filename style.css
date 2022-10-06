@@ -99,3 +99,47 @@ a {
   text-align: center;
   font-size: 20px;
 }
+.mlc {
+  margin: 30px;
+  text-align: center;
+  border: solid 5px;
+  border-radius: 12px;
+}
+.cml {
+  text-align: ;
+}
+.ab {
+  margin: 20px;
+}
+.zzz {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  block-size: 500px;
+}
+.zzz2 {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  block-size: 200px;
+}
+.zzz3 {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  block-size: 200px;
+}
+.ppp {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  block-size: 70px;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
